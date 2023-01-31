@@ -12,8 +12,24 @@ public class Main {
         System.out.println("Jeg er Integer:" + i2);
     }
 
+    private static void out(boolean b1) {
+        System.out.println(b1);
+    }
+
+    private static void out(double d1) {
+        System.out.println(d1);
+    }
+
+    private static void out(long l1) {
+        System.out.println(l1);
+    }
+
     public static void main(String[] args) {
 
+        out(4>5);
+        out(5.4);
+        Long l1 = 456l;
+        out(l1);
 
     }
 
