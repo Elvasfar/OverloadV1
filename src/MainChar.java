@@ -1,4 +1,4 @@
-public class Main {
+public class MainChar {
 
     private static void out(String s1) {
         System.out.println(s1);
