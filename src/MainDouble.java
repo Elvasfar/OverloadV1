@@ -1,4 +1,4 @@
-public class Main {
+public class MainDouble {
 
     private static void out(String s1) {
         System.out.println(s1);
@@ -29,6 +29,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        out(4>5);
+        out(5.4);
+        Long l1 = 456l;
+        out(l1);
+        float f1 = 12f;
+        out(f1);
+        Double d1 = 12.5;
+        for (int i = 1; i<10; i++) {
+            d1 = d1 + 10000.1;
+            out(d1);
+        }
 
     }
 
