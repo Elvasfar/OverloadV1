@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
 
     private static void out(String s1) {
@@ -32,11 +35,26 @@ public class Main {
         out('a');
         out('b');
         out('ض');
+        out('通');
         for (int i=1590; i<1596; i++) {
             out("i=" + i + (char)i);
         }
 
+        for (int i=36890; i<36900; i++) {
+            out("i=" + i + (char)i);
+        }
+
+        out(' ');
+        Set<Character> characterList = new HashSet<>();
+        
+                for(int i=0; i<10000000; i++){
+                   characterList.add((char)i);
+                }
+        System.out.println(characterList.size());
+
     }
+
+
 
 
 }
